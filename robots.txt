@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /privacy/
+Disallow: /legal/
+Disallow: /ru/legal/
+Disallow: /cs/legal/
+Allow: /
+Host: sfera.zone
