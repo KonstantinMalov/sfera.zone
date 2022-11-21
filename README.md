@@ -1,2 +1,0 @@
-# sfera.zone
-berk

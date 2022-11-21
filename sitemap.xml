@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+	xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+	xhtml:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://sfera.zone/</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/"/>
+</url>
+<url>
+  <loc>https://sfera.zone/ru/</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/"/>
+</url>
+<url>
+  <loc>https://sfera.zone/cs/</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/"/>
+</url>
+<url>
+  <loc>https://sfera.zone/about</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/about"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/about"/>
+</url>
+<url>
+  <loc>https://sfera.zone/ru/about</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/about"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/about"/>
+</url>
+<url>
+  <loc>https://sfera.zone/cs/about</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/about"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/about"/>
+</url>
+<url>
+  <loc>https://sfera.zone/apps</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/apps"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/apps"/>
+</url>
+<url>
+  <loc>https://sfera.zone/ru/apps</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/apps"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/apps"/>
+</url>
+<url>
+  <loc>https://sfera.zone/cs/apps</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/apps"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/apps"/>
+</url>
+<url>
+  <loc>https://sfera.zone/team</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/team"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/team"/>
+</url>
+<url>
+  <loc>https://sfera.zone/ru/team</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/team"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/team"/>
+</url>
+<url>
+  <loc>https://sfera.zone/cs/team</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/team"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/team"/>
+</url>
+<url>
+  <loc>https://sfera.zone/invest</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/invest"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/invest"/>
+</url>
+<url>
+  <loc>https://sfera.zone/ru/invest</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/invest"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/invest"/>
+</url>
+<url>
+  <loc>https://sfera.zone/cs/invest</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/invest"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/invest"/>
+</url>
+<url>
+  <loc>https://sfera.zone/startup</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/startup"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/"/>
+</url>
+<url>
+  <loc>https://sfera.zone/ru/startup</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/startup"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/startup"/>
+</url>
+<url>
+  <loc>https://sfera.zone/cs/startup</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/startup"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/startup"/>
+</url>
+<url>
+  <loc>https://sfera.zone/legal/</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/legal/"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/legal/"/>
+</url>
+<url>
+  <loc>https://sfera.zone/ru/legal/</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/legal/"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/legal/"/>
+</url>
+<url>
+  <loc>https://sfera.zone/cs/legal/</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/legal/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/legal/"/>
+</url>
+<url>
+  <loc>https://sfera.zone/legal/privacy</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/legal/privacy"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/legal/privacy"/>
+</url>
+<url>
+  <loc>https://sfera.zone/ru/legal/privacy</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/legal/privacy"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/legal/privacy"/>
+</url>
+<url>
+  <loc>https://sfera.zone/cs/legal/privacy</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/legal/privacy"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/legal/privacy"/>
+</url>
+<url>
+  <loc>https://sfera.zone/legal/cookies</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/legal/cookies"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/legal/cookies"/>
+</url>
+<url>
+  <loc>https://sfera.zone/ru/legal/cookies</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/legal/cookies"/>
+  <xhtml:link rel="alternate" hreflang="cs" href="https://sfera.zone/cs/legal/cookies"/>
+</url>
+<url>
+  <loc>https://sfera.zone/cs/legal/cookies</loc>
+  <lastmod>2022-04-05T20:54:49+00:00</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://sfera.zone/legal/cookies"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://sfera.zone/ru/legal/cookies"/>
+</url>
+</urlset>

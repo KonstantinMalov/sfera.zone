@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>Проект SFERA - Подприложения SFERA</title>
+		<meta name="Description" content="Все приложения SFERA: мессенджер ASAP, сервис знакомств MeetNet, поиск работы Job lite, анонимное общение BlackBox и еще более 30 мобильных приложений." />
+		<meta name="Keywords" content="приложения SFERA, подприложения проекта СФЕРА, мобильное приложение SFERA, список приложений SFERA" />
+		<meta name="robots" content="index, all" />
+		<meta name="author" content="SFERA project" />
+		<link rel="canonical" href="https://sfera.zone/ru/apps" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/favicon/apple-touch-icon-60x60.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicon/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicon/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon/apple-touch-icon-152x152.png" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-196x196.png" sizes="196x196" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-128.png" sizes="128x128" />
+		<meta name="msapplication-TileColor" content="#111111" />
+		<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png" />
+		<meta name="msapplication-square70x70logo" content="/favicon/mstile-70x70.png" />
+		<meta name="msapplication-square150x150logo" content="/favicon/mstile-150x150.png" />
+		<meta name="msapplication-wide310x150logo" content="/favicon/mstile-310x150.png" />
+		<meta name="msapplication-square310x310logo" content="/favicon/mstile-310x310.png" />
+		<!-- Website social preview -->
+		<meta property="og:locale" content="ru_RU" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Проект SFERA" />
+		<meta property="og:title" content="Скачать в проект SFERA." />
+		<meta property="og:url" content="https://sfera.zone/ru/apps" />
+		<meta property="og:description" content="Все приложения SFERA: мессенджер ASAP, сервис знакомств MeetNet, поиск работы Job lite, анонимное общение BlackBox и еще более 30 мобильных приложений." />
+		<meta property="og:image" content="https://sfera.zone/img/og/og-sfera-zone.jpg" />
+		<!-- End website social preview -->
+		<!-- Google Tag Manager -->
+		<script>
+			;(function (w, d, s, l, i) {
+				w[l] = w[l] || []
+				w[l].push({
+					"gtm.start": new Date().getTime(),
+					event: "gtm.js",
+				})
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != "dataLayer" ? "&l=" + l : ""
+				j.async = true
+				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl
+				f.parentNode.insertBefore(j, f)
+			})(window, document, "script", "dataLayer", "GTM-MZHBBLV")
+		</script>
+		<!-- End Google Tag Manager -->
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__inner">
+						<div class="header__menu menu-left">
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+							<div class="header__logo logo-header"><a href="/ru/" class="logo-header__link">SFERA</a></div>
+						</div>
+						<div class="header__menu menu-right">
+							<div class="menu-right__video video-header">
+								<span class="video-header__icon _icon-play"></span>
+								<img src="/img/preload-video.png" alt="" class="video-header__img" />
+							</div>
+							<div class="menu-right__mute mute-header _icon-audio"></div>
+							<div class="menu-right__lang lang-header">
+								<span class="_icon-lang lang-icon"></span>
+								<ul class="lang-menu">
+									<li class="lang-menu__item ru active"><button id="ru">Русский</button></li>
+									<li class="lang-menu__item en"><a href="/">English</a></li>
+									<li class="lang-menu__item"><a href="/cs/">Čeština</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div class="menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="/ru/about.html" class="menu__link">О проекте</a></li>
+						<li class="menu__item"><a href="/ru/apps.html" class="menu__link">Приложения</a></li>
+						<li class="menu__item"><a href="/ru/team.html" class="menu__link">Команда</a></li>
+						<li class="menu__item"><a href="/ru/download.html" class="menu__link">Скачать</a></li>
+						<li class="menu__item"><a href="/ru/startup.html" class="menu__link">Стартапам</a></li>
+						<li class="menu__item news"><a href="https://news.sfera.zone/ru/" class="menu__link">Новости</a></li>
+						<li class="menu__item"><a href="/ru/legal/index.html" class="menu__link">Положения</a></li>
+						<li class="menu__item news"><a
+							href="https://play.google.com/store/apps/details?id=zone.sfera&hl=ru"
+							class="menu__link" target="_blank">Скачать для android</a></li>
+						<li class="menu__item"><a
+							href="https://apps.apple.com/ru/app/sfera-project/id1498046044"
+							class="menu__link" target="_blank">Скачать для iOS</a></li>
+						<!--<li class="menu__item video-menu"><a href="#" class="menu__link">Видео о проекте</a></li>-->
+					</ul>
+				</nav>
+			</div>
+
+			<main class="page">
+				<div class="video-media">
+					<video preload="auto" playsinline autoplay="autoplay" loop="loop" class="video-media__video lazy">
+						<source data-src="../files/Video/Project_SFERA_RU.mp4" type="video/mp4" />
+					</video>
+					<div class="video-media__close _icon-close"></div>
+				</div>
+
+				<div class="app app__section">
+					<div class="app__container">
+						<div class="app__inner">
+							<div class="app__inner_right app-block">
+								<img src="/img/sfera.png" class="app-block__img" alt="" />
+							</div>
+							<div class="app__inner_left app-block">
+								<h2 class="app-block__title" data-da=".app__inner_right,480,0">Подприложения SFERA</h2>
+								<p class="app-block__text">
+									Основой приложения SFERA PROJECT является мессенджер, на базе которого существуют уже сейчас и постоянно добавляются разносторонние сервисы, например, сервис по поиску работы (Job Light), сервис знакомств (MeetNet), сервис по поиску друзей (Find Friends) и т.д. Все сервисы являются неотъемлемой частью SFERA и работают как единое приложение. На данный момент все сервисы разрабатываются нами, но в будущем планируется подключение сторонних сервисов. <br />
+									<br />
+									На данный момент в системе доступны сервисы первого этапа разработки.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="asap asap__section">
+					<div class="asap__container">
+						<div class="asap__inner">
+							<div class="asap__inner_right asap-block">
+								<h2 class="asap-block__title">ASAP</h2>
+								<p class="asap-block__text" data-da=".asap__inner_left,480,0">ASAP — мультифункциональный мессенджер, который вберет в себя лучшие функции существующих мессенджеров.</p>
+								<div class="asap-block__btns btns-app" data-da=".asap__inner_left,480,1">
+									<a href="#" class="btns-app__btn">1 этап</a>
+									<a href="#" class="btns-app__btn">beta-версия</a>
+								</div>
+							</div>
+							<div class="asap__inner_left asap-block">
+								<div class="asap-block__items items-app" data-da=".asap__inner_right,480,1">
+									<div class="items-app__item">
+										<img src="/img/mobile/1-ios.png" alt="" />
+										<p>IOS</p>
+									</div>
+									<div class="items-app__item">
+										<img src="/img/mobile/1-android.png" alt="" />
+										<p>Android</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-profile main-profile__section">
+					<div class="main-profile__container">
+						<div class="main-profile__inner">
+							<div class="main-profile__inner_left asap-block">
+								<div class="asap-block__items items-app">
+									<div class="items-app__item">
+										<img src="/img/mobile/2-ios.png" alt="" />
+										<p>IOS</p>
+									</div>
+									<div class="items-app__item">
+										<img src="/img/mobile/2-android.png" alt="" />
+										<p>Android</p>
+									</div>
+								</div>
+							</div>
+							<div class="main-profile__inner_right asap-block">
+								<h2 class="asap-block__title" data-da=".main-profile__inner_left,480,0">Главный профиль</h2>
+								<p class="asap-block__text">Сервис (страница), где владелец (пользователь) размещает информацию о себе и своем окружении в фото и видео формате.</p>
+								<div class="asap-block__btns btns-app">
+									<a href="#" class="btns-app__btn">1 этап</a>
+									<a href="#" class="btns-app__btn">beta-версия</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="meetnet meetnet__section">
+					<div class="meetnet__container">
+						<div class="meetnet__inner">
+							<div class="meetnet__inner_right asap-block">
+								<h2 class="asap-block__title">MeetNet</h2>
+								<p class="asap-block__text" data-da=".meetnet__inner_left,480,0">
+									MeetNet — сервис для знакомств, синхронизированный с личным профилем. Люди подбираются по более чем 50 параметрам. <br />
+									<br />
+									Такой подход позволит в будущем составить практически идеальные пары.
+								</p>
+								<div class="asap-block__btns btns-app" data-da=".meetnet__inner_left,480,1">
+									<a href="#" class="btns-app__btn">1 этап</a>
+									<a href="#" class="btns-app__btn">beta-версия</a>
+								</div>
+							</div>
+							<div class="meetnet__inner_left asap-block">
+								<div class="asap-block__items items-app" data-da=".meetnet__inner_right,480,1">
+									<div class="items-app__item">
+										<img src="/img/mobile/3-ios.png" alt="" />
+										<p>IOS</p>
+									</div>
+									<div class="items-app__item">
+										<img src="/img/mobile/3-android.png" alt="" />
+										<p>Android</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="job-lite job-lite__section">
+					<div class="job-lite__container">
+						<div class="job-lite__inner">
+							<div class="job-lite__inner_left asap-block">
+								<div class="asap-block__items items-app">
+									<div class="items-app__item">
+										<img src="/img/mobile/4-ios.png" alt="" />
+										<p>IOS</p>
+									</div>
+									<div class="items-app__item">
+										<img src="/img/mobile/4-android.png" alt="" />
+										<p>Android</p>
+									</div>
+								</div>
+							</div>
+							<div class="job-lite__inner_right asap-block">
+								<h2 class="asap-block__title" data-da=".job-lite__inner_left,480,0">JOB lite</h2>
+								<p class="asap-block__text">Очень простое и понятное подприложение по поиску работы или сотрудников, для простых специальностей не требующих составление резюме. Прямой диалог между соискателем и работодателем.</p>
+								<div class="asap-block__btns btns-app">
+									<a href="#" class="btns-app__btn">1 этап</a>
+									<a href="#" class="btns-app__btn">beta-версия</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="black-box black-box__section">
+					<div class="black-box__container">
+						<div class="black-box__inner">
+							<div class="black-box__inner_right asap-block">
+								<h2 class="asap-block__title">Black Box</h2>
+								<p class="asap-block__text" data-da=".black-box__inner_left,480,0">Позволяет находить новое общение по геолокации и беседовать на любые темы с любым пользователем. Для тех, кому не хватает общения и у кого есть вопросы, на не простые темы.</p>
+								<div class="asap-block__btns btns-app" data-da=".black-box__inner_left,480,1">
+									<a href="#" class="btns-app__btn">1 этап</a>
+									<a href="#" class="btns-app__btn">beta-версия</a>
+								</div>
+							</div>
+							<div class="black-box__inner_left asap-block">
+								<div class="asap-block__items items-app" data-da=".black-box__inner_right,480,1">
+									<div class="items-app__item">
+										<img src="/img/mobile/5-ios.png" alt="" />
+										<p>IOS</p>
+									</div>
+									<div class="items-app__item">
+										<img src="/img/mobile/5-android.png" alt="" />
+										<p>Android</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="choose choose__section">
+					<div class="choose__container">
+						<div class="choose__inner">
+							<div class="choose__inner_left asap-block">
+								<div class="asap-block__items items-app">
+									<div class="items-app__item">
+										<img src="/img/mobile/6-ios.png" alt="" />
+										<p>IOS</p>
+									</div>
+									<div class="items-app__item">
+										<img src="/img/mobile/6-android.png" alt="" />
+										<p>Android</p>
+									</div>
+								</div>
+							</div>
+							<div class="choose__inner_right asap-block">
+								<h2 class="asap-block__title" data-da=".choose__inner_left,480,0">Choose</h2>
+								<p class="asap-block__text">Не знаете, что лучше? Воспользуйтесь этим сервисом и выявите мнение аудитории. В будущем это будет эффективным инструментом для бизнеса по проведению аналитических опросов.</p>
+								<div class="asap-block__btns btns-app">
+									<a href="#" class="btns-app__btn">1 этап</a>
+									<a href="#" class="btns-app__btn">beta-версия</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="find-friend find-friend__section">
+					<div class="find-friend__container">
+						<div class="find-friend__inner">
+							<div class="find-friend__inner_right asap-block">
+								<h2 class="asap-block__title">Find friends</h2>
+								<p class="asap-block__text" data-da=".find-friend__inner_left,480,0">Первый сервис имеющий единственной целью — поиск новых друзей в реальной (офлайн) жизни.</p>
+								<div class="asap-block__btns btns-app" data-da=".find-friend__inner_left,480,1">
+									<a href="#" class="btns-app__btn">1 этап</a>
+									<a href="#" class="btns-app__btn">beta-версия</a>
+								</div>
+							</div>
+							<div class="find-friend__inner_left asap-block">
+								<div class="asap-block__items items-app" data-da=".find-friend__inner_right,480,1">
+									<div class="items-app__item">
+										<img src="/img/mobile/7-ios.png" alt="" />
+										<p>IOS</p>
+									</div>
+									<div class="items-app__item">
+										<img src="/img/mobile/7-android.png" alt="" />
+										<p>Android</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ribbon ribbon__section">
+					<div class="ribbon__container">
+						<div class="ribbon__inner">
+							<div class="ribbon__inner_left asap-block">
+								<div class="asap-block__items items-app">
+									<div class="items-app__item">
+										<img src="/img/mobile/8-ios.png" alt="" />
+										<p>IOS</p>
+									</div>
+									<div class="items-app__item">
+										<img src="/img/mobile/8-android.png" alt="" />
+										<p>Android</p>
+									</div>
+								</div>
+							</div>
+							<div class="ribbon__inner_right asap-block">
+								<h2 class="asap-block__title" data-da=".ribbon__inner_left,480,0">Лента SFERA</h2>
+								<p class="asap-block__text">Агрегатор контента SFERA, который будет формировать вашу новостную ленту с развивающим контентом. Сервис не решает за Вас, что Вам показывать. Вы увидите весь контент на который подписаны, плюс лучшее в системе за определенный промежуток времени.</p>
+								<div class="asap-block__btns btns-app">
+									<a href="#" class="btns-app__btn">1 этап</a>
+									<a href="#" class="btns-app__btn">beta-версия</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="videos videos__section">
+					<div class="videos__container">
+						<div class="videos__inner">
+							<div class="videos__inner_right asap-block">
+								<h2 class="asap-block__title">videos</h2>
+								<p class="asap-block__text" data-da=".videos__inner_left,480,0">Видео сервис, главное преимущество которого, предоставление исключительно полезного, развивающего, интересного контента.</p>
+								<div class="asap-block__btns btns-app" data-da=".videos__inner_left,480,1">
+									<a href="#" class="btns-app__btn">1 этап</a>
+									<a href="#" class="btns-app__btn">beta-версия</a>
+								</div>
+							</div>
+							<div class="videos__inner_left asap-block">
+								<div class="asap-block__items items-app" data-da=".videos__inner_right,480,1">
+									<div class="items-app__item">
+										<img src="/img/mobile/9-ios.png" alt="" />
+										<p>IOS</p>
+									</div>
+									<div class="items-app__item">
+										<img src="/img/mobile/9-android.png" alt="" />
+										<p>Android</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="second-stage second-stage__section">
+					<div class="second-stage__container">
+						<h2 class="second-stage__title">сервисы второго этапа разработки</h2>
+						<div class="second-stage__items items-second">
+							<div class="items-second__item">
+								<img src="/img/second-stage-mobile/1.png" alt="" />
+								<p>Мероприятия</p>
+							</div>
+							<div class="items-second__item">
+								<img src="/img/second-stage-mobile/2.png" alt="" />
+								<p>FM-каналы</p>
+							</div>
+							<div class="items-second__item">
+								<img src="/img/second-stage-mobile/3.png" alt="" />
+								<p>Голосовые каналы</p>
+							</div>
+							<div class="items-second__item">
+								<img src="/img/second-stage-mobile/4.png" alt="" />
+								<p>Книги</p>
+							</div>
+							<div class="items-second__item">
+								<img src="/img/second-stage-mobile/5.png" alt="" />
+								<p>Таланты</p>
+							</div>
+							<div class="items-second__item">
+								<img src="/img/second-stage-mobile/6.png" alt="" />
+								<p>Work & Business</p>
+							</div>
+							<div class="items-second__item">
+								<img src="/img/second-stage-mobile/7.png" alt="" />
+								<p>Holy Book</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="third-stage third-stage__section">
+					<div class="third-stage__container">
+						<h2 class="third-stage__title">сервисы третьего этапа разработки</h2>
+						<div class="third-stage__items items-third">
+							<div class="items-third__item">
+								<img src="/img/third-stage-mobile/1.png" alt="" />
+								<p>Comedy-лента</p>
+							</div>
+							<div class="items-third__item">
+								<img src="/img/third-stage-mobile/2.png" alt="" />
+								<p>Spor-T</p>
+							</div>
+							<div class="items-third__item">
+								<img src="/img/third-stage-mobile/3.png" alt="" />
+								<p>sTravel</p>
+							</div>
+							<div class="items-third__item">
+								<img src="/img/third-stage-mobile/4.png" alt="" />
+								<p>Industry news</p>
+							</div>
+							<div class="items-third__item">
+								<img src="/img/third-stage-mobile/5.png" alt="" />
+								<p>Art Lab</p>
+							</div>
+							<div class="items-third__item">
+								<img src="/img/third-stage-mobile/6.png" alt="" />
+								<p>Ask Me</p>
+							</div>
+							<div class="items-third__item">
+								<img src="/img/third-stage-mobile/7.png" alt="" />
+								<p>Calendar</p>
+							</div>
+							<div class="items-third__item">
+								<img src="/img/third-stage-mobile/8.png" alt="" />
+								<p>White Box</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer footer-no-bg">
+				<div class="footer__container">
+					<div class="footer__inner">
+						<div class="footer__inner__left footer-block">
+							<h2 class="footer-block__title title-left">Проект SFERA</h2>
+							<a href="/ru/" class="footer-block__link">
+								<img src="/img/footer-logo.png" alt="" class="footer-block__link_logo" />
+							</a>
+						</div>
+						<div class="footer__inner__right footer-block">
+							<h2 class="footer-block__title title-right" data-da=".footer__inner__left,480,1">
+								Мы не будем менять мир, <br />
+								Мы перепишем код.
+							</h2>
+							<div class="footer-block__contacts footer-contacts">
+								<h2 class="footer-contacts__title">Контакты</h2>
+								<div class="footer-contacts__items">
+									<p class="footer-contacts__item">По общим вопросам: info@sfera.zone</p>
+									<p class="footer-contacts__item">По вопросам работы: job@sfera.zone</p>
+									<p class="footer-contacts__item">WhatsApp основателя: +420 774 715 626</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__copyright">
+						<p class="footer__copyright_text">© Copyright 2019-2022 <a href="https://sfera.zone">https://sfera.zone</a> - Проект SFERA | Все права защищены ООО «СФЕРА»</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="../js/app.js"></script>
+	</body>
+</html>
